@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
+  <style>
+    html, body {
+      background-color:rgba(0,0,0,0.02);
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+    }
+
+    nav {
+      padding: 0 1rem 0 1rem;
+      display: flex;
+      align-items: center;
+      height: 3rem;
+      background-color: rgb(250, 200, 44);
+      box-shadow: 0 2px 4px 1px rgba(0,0,0,0.2);
+    }
+
+    main {
+      padding: 1rem;
+      /* height: 100%; */
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    p {
+      margin-bottom: 2rem;
+    }
+
+    .video-container {
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .responsive-wrapper {
+      box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
+      position: relative;
+      /* 16:9 */
+      padding-bottom: 56.25%;
+      overflow: hidden;
+      margin-bottom: 2rem;
+    }
+
+    .responsive-wrapper > :first-child {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    @media screen and (min-width: 576px) {
+    }
+
+    @media screen and (min-width: 768px) {
+      main {
+        width: 80vw;
+      }
+    }
+
+    @media screen and (min-width: 992px) {
+      main {
+        width: 70vw;
+      }
+    }
+
+    @media screen and (min-width: 1200px) {
+      main {
+        width: 60vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>I am navigation bar</nav>
+  <main>
+    <section>
+      <h2>譚得屎覺得空虛寂寞覺得冷</h2>
+      <p>【NOW健康 陳敬哲／台北報導】經歷歸國人數爆量與清明人潮群聚風險，台灣今（14）日久違單日零確診個案。例行記者會上難得稍喘口氣，但中央流行疫情指揮中心之後卻要加嚴入境國人的管理，<u><strong>4月18日零時起從歐美2洲入境台灣，居家隔離必須有單獨房間浴室，家中不得有年長者與小孩等，不符條件者一律入住防疫旅館，申報不實最高可罰15萬元</strong></u>。</p>
+      <p>指揮中心指揮官陳時中表示，目前有300多例境外移入患者，多是在居家隔離時發現染病，讓17例本土個案發生，雖然數目不大，但也能看到假使居家隔離沒做好的後果。因此入境者如果居家隔離地點沒辦法完善隔離，容易接觸到家人或同住者的話，就要居住到防疫旅館，讓疫情防制能夠更確實。</p>
+
+      <div class="video-container">
+        <div class="responsive-wrapper">
+          <iframe src="./videojs-static.html" frameborder="0"></iframe>
+        </div>
+      </div>
+
+      <p>【NOW健康 陳敬哲／台北報導】經歷歸國人數爆量與清明人潮群聚風險，台灣今（14）日久違單日零確診個案。例行記者會上難得稍喘口氣，但中央流行疫情指揮中心之後卻要加嚴入境國人的管理，<u><strong>4月18日零時起從歐美2洲入境台灣，居家隔離必須有單獨房間浴室，家中不得有年長者與小孩等，不符條件者一律入住防疫旅館，申報不實最高可罰15萬元</strong></u>。</p>
+      <p>指揮中心指揮官陳時中表示，目前有300多例境外移入患者，多是在居家隔離時發現染病，讓17例本土個案發生，雖然數目不大，但也能看到假使居家隔離沒做好的後果。因此入境者如果居家隔離地點沒辦法完善隔離，容易接觸到家人或同住者的話，就要居住到防疫旅館，讓疫情防制能夠更確實。</p>
+
+      <div class="video-container">
+        <div class="responsive-wrapper">
+          <iframe src="./videojs-script.html" frameborder="0"></iframe>
+        </div>
+      </div>
+
+      <p>陳時中強調，居家隔離最必要條件就是1人1室單獨衛浴，絕對不能與家人共同空間，並且家裡不能有65歲（含）以上長者、6歲（含）以下幼童、慢性疾病患者，目前從歐美計畫搭機回台的民眾，登機前都要填寫申報表，自己確認回台的居家隔離地點是否符合條件，如果不符合就要預訂防疫旅館。</p>
+      <p>交通部觀光局旅宿組長湯文琦表示，目前各縣市都有設置防疫旅館，房間數超過6,000間，台北市、新北市、桃園市就超過2,500間，獎勵旅館業者參與防疫。1位居家隔離者入住，1天就補助旅宿業者1,000元，同時觀光局也補助地方政府，協住防疫旅館指引講習、必要器材、與相關費用。</p>
+
+      <div class="video-container">
+        <div class="responsive-wrapper">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/HgAIZ6RPZic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // let iframe1 = document.querySelector('#v1');
+    // let iframe2 = document.querySelector('#v2');
+    // iframe1.setAttribute('src', 'http://localhost:8080/videojs-static.html?t=' + new Date().getTime());
+    // iframe2.setAttribute('src', 'http://localhost:8080/videojs-script.html?t=' + new Date().getTime());
+  </script>
+</body>
+
+</html>

@@ -18,7 +18,10 @@
 
 
 ### 如何嵌入程式碼、綁定事件追蹤? ###
-需要嵌入的程式碼分為兩類，一種是固定形式的initial code，通常第一次埋設後就不會更動。要埋的code大概長這樣:
+需要嵌入的程式碼分為兩類，一種是固定形式的initial code，透過UI介面直接產生
+，不需要了解其內容，通常第一次埋設後就不會更動。
+
+要埋的code大概長這樣:
 ```
 <!-- Facebook Pixel Code -->
   <script>
@@ -56,8 +59,8 @@
 ```
 
 
-另一種需要埋設的是**綁定事件追蹤**。綁定事件追蹤又分兩種，一種是**標準事件**，可以直接透過**Facebook Event Setup Tool**直接在埋設的網頁進行設定，過程中不會修改任何code。
+另一種需要埋設的是**綁定事件追蹤**。
 
-而另一種**自訂義事件追蹤**，這部份會比較麻煩，需要額外自行埋code。。
+綁定事件追蹤又分兩種，一種是**標準事件**，可以直接透過**Facebook Event Setup Tool**直接在埋設的網頁進行設定，過程中不會修改任何code。而另一種**自訂義事件追蹤**，這部份會比較麻煩，需要額外自行埋code。。
 
 詳細請參考[**官方教學**](https://www.facebook.com/business/learn/lessons/tips-to-create-and-install-facebook-pixel)

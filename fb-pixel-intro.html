@@ -1,0 +1,57 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Facebook Pixel簡介.md</title><style></style></head><body id="preview">
+<h1 class="code-line" data-line-start=0 data-line-end=1><a id="Facebook_Pixel_0"></a>Facebook Pixel</h1>
+<p class="has-line-data" data-line-start="1" data-line-end="3">在網站上鑲嵌Facebook Pixel程式碼後，就可以用綁定事件追蹤的方式收集使用者在你的網站的行為，再利用FB Pixel後台系統分析收集來的數據進而改善facebook廣告投放。<br>
+最終目的: <strong>make your AD more effective</strong></p>
+<p class="has-line-data" data-line-start="4" data-line-end="5">請直接看<a href="https://www.youtube.com/watch?v=L0KIT3SM7PI"><strong>淺顯易懂的簡介</strong></a>(可以開啟字幕)</p>
+<h3 class="code-line" data-line-start=7 data-line-end=8><a id="What_is_advertising_conversion__7"></a>What is 廣告轉換(advertising conversion) ?</h3>
+<p class="has-line-data" data-line-start="8" data-line-end="9"><em>廣義的解釋:</em></p>
+<blockquote>
+<p class="has-line-data" data-line-start="9" data-line-end="11">An advertising conversion refers to any goal action taken by a potential customer that you’ve deemed valuable to your ad campaign.<br>
+(您認為對廣告活動有價值的)客戶對廣告採取的任何目標操作</p>
+</blockquote>
+<p class="has-line-data" data-line-start="12" data-line-end="13"><em>Google的解釋:</em></p>
+<blockquote>
+<p class="has-line-data" data-line-start="13" data-line-end="15">Conversion: An action that’s counted when someone interacts with your ad (for example, clicks a text ad or views a video ad) and then takes an action that you’ve defined as valuable to your business, such as an online purchase or a call to your business from a mobile phone.<br>
+當某人與你的廣告互動(例如點擊廣告、觀看廣告影片)，然後執行對您的業務有價值的操作，例如致電給你或線上購買</p>
+</blockquote>
+<p class="has-line-data" data-line-start="16" data-line-end="17">簡單說: <strong>廣告直接或間接轉換為你認為對你有益的事物</strong></p>
+<h3 class="code-line" data-line-start=19 data-line-end=20><a id="_19"></a>如何嵌入程式碼、綁定事件追蹤?</h3>
+<p class="has-line-data" data-line-start="20" data-line-end="21">需要嵌入的程式碼分為兩類，一種是固定形式的initial code，通常第一次埋設後就不會更動。要埋的code大概長這樣:</p>
+<pre><code class="has-line-data" data-line-start="22" data-line-end="56">&lt;!-- Facebook Pixel Code --&gt;
+  &lt;script&gt;
+    !(function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod
+          ? n.callMethod.apply(n, arguments)
+          : n.queue.push(arguments);
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+    })(
+      window,
+      document,
+      'script',
+      'https://connect.facebook.net/en_US/fbevents.js'
+    );
+    fbq('init', '823092551515939');
+    fbq('track', 'PageView');
+  &lt;/script&gt;
+  &lt;noscript&gt;
+    &lt;img height=&quot;1&quot; width=&quot;1&quot; style=&quot;display: none;&quot;
+      src=&quot;https://www.facebook.com/tr?id=823092551515939&amp;ev=PageView&amp;noscript=1&quot; /&gt;
+  &lt;/noscript&gt;
+  &lt;!-- End Facebook Pixel Code --&gt;
+</code></pre>
+<p class="has-line-data" data-line-start="58" data-line-end="59">另一種需要埋設的是<strong>綁定事件追蹤</strong>。綁定事件追蹤又分兩種，一種是<strong>標準事件</strong>，可以直接透過<strong>Facebook Event Setup Tool</strong>直接在埋設的網頁進行設定，過程中不會修改任何code。</p>
+<p class="has-line-data" data-line-start="60" data-line-end="61">而另一種<strong>自訂義事件追蹤</strong>，這部份會比較麻煩，需要額外自行埋code。。</p>
+<p class="has-line-data" data-line-start="62" data-line-end="63">詳細請參考<a href="https://www.facebook.com/business/learn/lessons/tips-to-create-and-install-facebook-pixel"><strong>官方教學</strong></a></p>
+</body></html>

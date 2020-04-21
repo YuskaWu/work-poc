@@ -6,6 +6,8 @@
 
 
 ### What is 廣告轉換(advertising conversion) ? ###
+上面的簡介影片多次提到"轉換"這個詞，以下是它的解釋:
+
 *廣義的解釋:*
 >An advertising conversion refers to any goal action taken by a potential customer that you’ve deemed valuable to your ad campaign.
 (您認為對廣告活動有價值的)客戶對廣告採取的任何目標操作
@@ -18,8 +20,7 @@
 
 
 ### 如何嵌入程式碼、綁定事件追蹤? ###
-需要嵌入的程式碼分為兩類，一種是固定形式的initial code，透過UI介面直接產生
-，不需要了解其內容，通常第一次埋設後就不會更動。
+需要嵌入的程式碼分為兩類，一種是固定形式的initial code，透過UI介面直接產生，不需要了解其內容，通常第一次埋設後就不會更動。
 
 要埋的code大概長這樣:
 ```

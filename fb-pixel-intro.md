@@ -1,5 +1,6 @@
 # Facebook Pixel #
 在網站上鑲嵌Facebook Pixel程式碼後，就可以用綁定事件追蹤的方式收集使用者在你的網站的行為，再利用FB Pixel後台系統分析收集來的數據進而改善facebook廣告投放。
+
 最終目的: **make your AD more effective**
 
 請直接看[**淺顯易懂的簡介**](https://www.youtube.com/watch?v=L0KIT3SM7PI)(可以開啟字幕)

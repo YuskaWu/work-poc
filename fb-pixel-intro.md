@@ -1,12 +1,13 @@
 # Facebook Pixel #
+
 在網站上鑲嵌Facebook Pixel程式碼後，就可以用綁定事件追蹤的方式收集使用者在你的網站的行為，再利用FB Pixel後台系統分析收集來的數據進而改善facebook廣告投放。
 
 最終目的: **make your AD more effective**
 
 請直接看[**淺顯易懂的簡介**](https://www.youtube.com/watch?v=L0KIT3SM7PI)(可以開啟字幕)
 
+## What is 廣告轉換(advertising conversion) ? ##
 
-### What is 廣告轉換(advertising conversion) ? ###
 上面的簡介影片多次提到"轉換"這個詞，以下是它的解釋:
 
 *廣義的解釋:*
@@ -19,12 +20,13 @@
 
 簡單說: **廣告直接或間接轉換為你認為對你有益的事物**
 
+## 如何嵌入程式碼、綁定事件追蹤? ##
 
-### 如何嵌入程式碼、綁定事件追蹤? ###
 需要嵌入的程式碼分為兩類，一種是固定形式的initial code，透過UI介面直接產生，不需要了解其內容，通常第一次埋設後就不會更動。
 
 要埋的code大概長這樣:
-```
+
+```javascript
 <!-- Facebook Pixel Code -->
   <script>
     !(function (f, b, e, v, n, t, s) {
@@ -60,9 +62,8 @@
   <!-- End Facebook Pixel Code -->
 ```
 
-
 另一種需要埋設的是**綁定事件追蹤**。
 
-綁定事件追蹤又分兩種，一種是**標準事件**，可以直接透過**Facebook Event Setup Tool**直接在埋設的網頁進行設定，過程中不會修改任何code。而另一種**自訂義事件追蹤**，這部份會比較麻煩，需要額外自行埋code。。
+綁定事件追蹤又分兩種，一種是**標準事件**，可以直接透過**Facebook Event Setup Tool**直接在埋設的網頁進行設定，過程中不會修改任何code。而另一種**自訂義事件追蹤**，這部份會比較麻煩，需要額外自行埋code。
 
 詳細請參考[**官方教學**](https://www.facebook.com/business/learn/lessons/tips-to-create-and-install-facebook-pixel)

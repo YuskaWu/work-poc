@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://yuskawu.github.io/work-poc/element-ui-practice/precache-manifest.c34225f692d2acc512191e164ad613d2.js"
+  "/element-ui-practice/dist/precache-manifest.b4b0cc8ee0150ef46dca5e3c994a8743.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "element-ui-practice"});

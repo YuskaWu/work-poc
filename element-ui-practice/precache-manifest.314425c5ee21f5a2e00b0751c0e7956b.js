@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3309f6c8c06b5d63290",
-    "url": "/element-ui-practice/dist/css/app.c24685ec.css"
+    "revision": "6866d6930b89e1aad414",
+    "url": "/element-ui-practice/dist/css/app.5d15789b.css"
   },
   {
     "revision": "9a8d9e5a41621796ae57",
@@ -28,12 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/element-ui-practice/dist/img/menu-24px.55f68494.svg"
   },
   {
-    "revision": "1ddb2b31dd4d35dd45c1630982994623",
+    "revision": "a4ad6afe86103916ba3d9e702d6329b4",
+    "url": "/element-ui-practice/dist/img/more_vert-24px.a4ad6afe.svg"
+  },
+  {
+    "revision": "677ece32ee38e6a0d128e306ce87b04e",
     "url": "/element-ui-practice/dist/index.html"
   },
   {
-    "revision": "f3309f6c8c06b5d63290",
-    "url": "/element-ui-practice/dist/js/app.ec915f42.js"
+    "revision": "6866d6930b89e1aad414",
+    "url": "/element-ui-practice/dist/js/app.3b6add83.js"
   },
   {
     "revision": "9a8d9e5a41621796ae57",

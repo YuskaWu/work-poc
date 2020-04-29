@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/work-poc/civilian-superstart/precache-manifest.19e8b84c637d5c7f981c7b8ae9470f9d.js"
+  "/work-poc/civilian-superstart/precache-manifest.f05cad7d405bf4b5febe8dde23e43905.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "civilian-superstar"});
